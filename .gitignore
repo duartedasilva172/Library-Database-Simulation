@@ -1,0 +1,21 @@
+# Byte-compiled / cached files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+*.ipynb_checkpoints/
+
+# SQLite journal (temporary files)
+*.db-journal
+
+# Ignore the Jupyter notebook if not needed in GitHub
+main.ipynb
+
+# Virtual environment (if any)
+.env/
+venv/
+env/
+
+# VSCode / PyCharm settings (optional)
+.vscode/
+.idea/
