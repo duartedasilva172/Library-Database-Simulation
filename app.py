@@ -113,7 +113,7 @@ elif choice == "Delete Data":
     record_id = st.number_input(f"Enter {id_col} to delete", step=1)
     if st.button("Delete"):
         try:
-            conn.execute(f"DELETE FROM {table} WHERE {id_col}=?", (record_id))
+            conn.execute(f"DELETE FROM {table} WHERE {id_col}=?", (record_id,))
             conn.commit()
             st.warning("Record deleted successfully!")
         except Exception as e:
