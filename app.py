@@ -14,7 +14,7 @@ def get_conn():
 # ------- Sidebar Navigation -------
 
 st.sidebar.title("📚 Library Database")
-menu = ["Run SQL", "View Tables", "Insert Data", "Update Data"]
+menu = ["Run SQL", "View Tables", "Insert Data", "Update Data", "Delete Data"]
 choice = st.sidebar.radio("Select Mode", menu)
 
 # ------- SQL Query Executor -------
